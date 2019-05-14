@@ -29,3 +29,4 @@ hs_err_pid*
 .idea/*
 out/*
 # End of https://www.gitignore.io/api/kotlin
+.idea/
