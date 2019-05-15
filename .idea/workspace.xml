@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580b4f5b-4941-474e-9c27-1410d07cd128" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Location.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Locations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/DataTypes/DummyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/DataTypes/DummyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTypes/DummyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataTypes/DummyClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="580b4f5b-4941-474e-9c27-1410d07cd128" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Arrays/Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+            <state relative-caret-position="485">
+              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
               <folding>
                 <element signature="e#16#71#0" expanded="true" />
               </folding>
@@ -246,7 +237,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1682" height="1051" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26560587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -257,12 +247,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3856988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3856988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30792227" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30493274" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30444205" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
@@ -365,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays/Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        <state relative-caret-position="485">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
           <folding>
             <element signature="e#16#71#0" expanded="true" />
           </folding>
