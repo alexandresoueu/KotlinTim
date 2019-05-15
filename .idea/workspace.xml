@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580b4f5b-4941-474e-9c27-1410d07cd128" name="Default Changelist" comment="" />
+    <list default="true" id="580b4f5b-4941-474e-9c27-1410d07cd128" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/NullReference/NullReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullReference/NullReference.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Arrays.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,27 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataTypes/DummyClass.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NullReference/NullReference.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Arrays/Arrays.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NullReference/NullReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-              <folding>
-                <element signature="e#16#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -44,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +63,9 @@
         <option value="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/challenge.kt" />
         <option value="$PROJECT_DIR$/src/DataTypes/Datatypes.kt" />
         <option value="$PROJECT_DIR$/src/DataTypes/DummyClass.java" />
+        <option value="$PROJECT_DIR$/src/NullReference/NullReference.java" />
         <option value="$PROJECT_DIR$/src/Arrays/Arrays.kt" />
+        <option value="$PROJECT_DIR$/src/NullReference/NullReference.kt" />
       </list>
     </option>
   </component>
@@ -119,7 +120,13 @@
               <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DataTypes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Arrays" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="NullReference" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Arrays.ArraysKt">
+  <component name="RunManager" selected="Kotlin.NullReference.NullReferenceKt">
     <configuration name="Arrays.ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -168,6 +175,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="DataTypes.DatatypesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullReference.NullReferenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="NullReference.NullReferenceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,26 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="academy.learnprogramming.textadventure.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.textadventure.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NullReference.NullReferenceKt" />
         <item itemvalue="Kotlin.Arrays.ArraysKt" />
         <item itemvalue="Kotlin.DataTypes.DatatypesKt" />
         <item itemvalue="Kotlin.academy.learnprogramming.textadventure.ChallengeKt" />
         <item itemvalue="Kotlin.academy.learnprogramming.textadventure.DeclarationsKt" />
-        <item itemvalue="Kotlin.academy.learnprogramming.textadventure.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -237,8 +244,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1682" height="1051" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26560587" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18482251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,12 +255,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3856988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3856988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30792227" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30444205" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30444205" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
@@ -353,13 +361,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NullReference/NullReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays/Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        <state relative-caret-position="171">
+          <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
           <folding>
             <element signature="e#16#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NullReference/NullReference.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

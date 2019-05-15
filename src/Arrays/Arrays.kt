@@ -43,7 +43,7 @@ fun main() {
         println(number)
     }
 
-    val mixedArray = arrayOf("Quechua", 30, BigDecimal(11.7), 'j')
+    val mixedArray = arrayOf("Quechua", 30, BigDecimal(11.6), 'j') //formatter bigDecimal
     for (element in mixedArray){
         println("This element: ${element}")
     }
