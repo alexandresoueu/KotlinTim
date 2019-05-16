@@ -22,4 +22,10 @@ fun main() {
     println(str3)
     println(str3?.toUpperCase())
 
+
+    val str4: String? = "This isn't null"
+    val str5 = str4!!.toUpperCase()
+    println(str5)
+
+
 }
