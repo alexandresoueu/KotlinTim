@@ -13,6 +13,16 @@ fun main() {
 
     println( str4 == anotherStr)
 
+    println("======================================")
+
+    val nullableInts = arrayOfNulls<Int>(8)
+
+    for (i in nullableInts) {
+        println(i)
+    }
+
+    println("This is nullableInts position 3:  ${nullableInts[3]}")
+
 }
 
 fun printText(text: String) {
