@@ -3,6 +3,8 @@ package AccessModifiers
 fun main() {
     val dori = Nemo("Zaira")
     println(dori.firstName)
+    dori.fullTime = false
+    println(dori.fullTime)
 
     val dolly = Nemo("Bob")
     println(dolly.firstName)
@@ -16,7 +18,17 @@ fun main() {
 
 }
 
-class Nemo (val firstName: String, var fullTime: Boolean = true) {
+class Nemo (val firstName: String, fullTime: Boolean = true) {
+
+    var fullTime = fullTime
+    get() {
+        println("Running get into fullTime")
+        return field
+    }
+    set(value) {
+        println("Running set into fulltTime")
+        field = value
+    }
 
     //val firstName: String = firstName
 
