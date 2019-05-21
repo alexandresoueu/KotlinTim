@@ -52,7 +52,7 @@ class Nemo (val firstName: String, fullTime: Boolean = true) {
         return field
     }
     set(value) {
-        println("Running set into fulltTime")
+        println("Running set into fullTime")
         field = value
     }
 
