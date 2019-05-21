@@ -1,6 +1,12 @@
 package AccessModifiers
 
+
+val MY_CONSTANT = 100
+
 fun main() {
+
+    println("CONSTANT IS ${MY_CONSTANT}")
+
     val dori = Nemo("Zaira")
     println(dori.firstName)
     dori.fullTime = false
@@ -16,7 +22,27 @@ fun main() {
 
     println(Demo().dummy)
 
+    println("==============================================")
+
+    val monza = Car("gray", "monza shark", 1990)
+    println(monza)
+
+    val voyage = Car("gray", "voyage vintage", 1990)
+    println(monza != voyage)
+
+    val corsa = monza.copy()
+    println(corsa)
+
+    val uno = monza.copy(year = 2012)
+    println(uno)
+
 }
+
+
+data class  Car(val color: String, val model: String, val year: Int) {
+
+}
+
 
 class Nemo (val firstName: String, fullTime: Boolean = true) {
 
