@@ -23,6 +23,20 @@ fun main() {
     for (c in lotsOfCars) {
         println(c)
     }
+
+    println("====================================================")
+
+    println(Utils().upperFirtsAndLast("nemo living in ocean"))
+
+    val t = "dori living in ocean too"
+    println(t.upperFirtsAndLast())
+}
+
+
+fun String.upperFirtsAndLast(): String {
+    val upperFirst = substring(0, 1).toUpperCase() + substring(1)
+    return upperFirst.substring(0, upperFirst.length -1) +
+            upperFirst.substring(upperFirst.length -1, upperFirst.length).toUpperCase()
 }
 
 fun printColors (vararg cars: Car) {

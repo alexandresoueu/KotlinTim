@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580b4f5b-4941-474e-9c27-1410d07cd128" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Functions/functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Location.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Locations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Utils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccessModifiers/AccessModifiers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessModifiers/AccessModifiers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/functions.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Functions/functions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Functions/Utils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/DataTypes/DummyClass.java" />
         <option value="$PROJECT_DIR$/src/AccessModifiers/JavaEmployee.java" />
         <option value="$PROJECT_DIR$/src/AccessModifiers/AccessModifiers.kt" />
+        <option value="$PROJECT_DIR$/src/Functions/Utils.kt" />
         <option value="$PROJECT_DIR$/src/Functions/functions.kt" />
       </list>
     </option>
@@ -437,10 +443,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions/functions.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
