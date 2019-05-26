@@ -21,12 +21,21 @@ class SpecialLaserPrinter(modelName: String, ppm: Int): LaserPrinter(modelName, 
 
 }
 
-open class Something {
+open class Something: MySubInterface {
     val someProperty: String
+    override val number: Int = 25
 
     constructor(someParameter: String) {
         someProperty = someParameter
         println("I'm in the parent's constructor........")
+    }
+
+    override fun myFunction(str: String): String {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun mySubFunction(num: Int): String {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }
 
@@ -36,7 +45,14 @@ class SomethingElse: Something {
     }
 }
 
-/*
-open data class DataClass(val number: Int) {
+interface MyInterface {
+    val number: Int
+    val number2: Int
+        get() = number * 100
 
-}*/
+    fun myFunction(str: String) : String
+}
+
+interface MySubInterface: MyInterface {
+    fun mySubFunction(num: Int): String
+}
