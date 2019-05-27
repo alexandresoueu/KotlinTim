@@ -14,6 +14,18 @@ fun main() {
 
     println(someClassOne.someString)
     println(someClassTwo.someString)
+    println("========================================")
+
+    var thisIsMutable = 57
+
+    wantsSomeInterface(object: SomeInterface {
+        override fun mustImplement(num: Int): String {
+            thisIsMutable++
+            return "This is from mustImplement: ${num * 100}"
+        }
+    })
+    println(thisIsMutable)
+
 }
 
 object CompanyCommunications {
@@ -39,4 +51,12 @@ class SomeClass private constructor(val someString: String) {
             }
         }
     }
+}
+
+interface SomeInterface {
+    fun mustImplement(num: Int): String
+}
+
+fun wantsSomeInterface(si: SomeInterface) {
+    println("Printing from wantsSomeInterface ${si.mustImplement(22)}")
 }
