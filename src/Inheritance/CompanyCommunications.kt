@@ -29,6 +29,9 @@ fun main() {
     println("========================================")
     
     println(Department.IT.getDeptInfo())
+    println("========================================")
+
+    topLevel("I'm private")
 
 }
 
