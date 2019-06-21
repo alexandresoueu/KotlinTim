@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/Loops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Location.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Locations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/IfExpressions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/academy/learnprogramming/textadventure/ChallengeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/academy/learnprogramming/textadventure/ChallengeKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/academy/learnprogramming/textadventure/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/academy/learnprogramming/textadventure/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/academy/learnprogramming/textadventure/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/academy/learnprogramming/textadventure/MainKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/Loops.kt">
+        <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/IfExpressions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+            <state relative-caret-position="600">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,6 +50,7 @@
         <option value="$PROJECT_DIR$/AnotherModule/src/AnotherPackageModule/AnotherModuleFile.kt" />
         <option value="$PROJECT_DIR$/src/Inheritance/javacode/AnotherFile.kt" />
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/Loops.kt" />
+        <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/IfExpressions.kt" />
       </list>
     </option>
   </component>
@@ -114,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LoopsIfWhenTryCatchExpressions.LoopsKt">
+  <component name="RunManager" selected="Kotlin.LoopsIfWhenTryCatchExpressions.IfExpressionsKt">
     <configuration name="AnotherPackageModule.AnotherModuleFileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AnotherModule" />
       <option name="VM_PARAMETERS" />
@@ -141,19 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance.CompanyCommunicationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance.CompanyCommunicationsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Inheritance.javacode.AnotherFileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -162,6 +150,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Inheritance.javacode.AnotherFileKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopsIfWhenTryCatchExpressions.IfExpressionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.LoopsKt" />
         <item itemvalue="Kotlin.Inheritance.javacode.AnotherFileKt" />
         <item itemvalue="Kotlin.AnotherPackageModule.AnotherModuleFileKt" />
         <item itemvalue="Kotlin.Imports.imports.ImportsKt" />
-        <item itemvalue="Kotlin.Inheritance.CompanyCommunicationsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -201,12 +202,34 @@
       <option name="presentableId" value="Default" />
       <updated>1558966073808</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module">
+      <created>1561135785893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561135785893</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module">
+      <created>1561135793322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561135793322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module">
+      <created>1561135798071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561135798071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="2562" height="1441" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11933174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12012729" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -222,7 +245,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32977912" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32901752" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32901752" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -261,6 +284,11 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Loops" />
+    <MESSAGE value="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Functions/functions.kt">
@@ -309,8 +337,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/Loops.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="1083">
           <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/IfExpressions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
