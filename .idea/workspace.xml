@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/TryCatch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/TryCatch.kt">
+        <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="e#40#107#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="404">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -52,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/IfExpressions.kt" />
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/WhenExpression.kt" />
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/TryCatch.kt" />
+        <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt" />
       </list>
     </option>
   </component>
@@ -116,15 +115,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LoopsIfWhenTryCatchExpressions.TryCatchKt">
-    <configuration name="Inheritance.javacode.AnotherFileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.LoopsIfWhenTryCatchExpressions.ChallengeKt">
+    <configuration name="LoopsIfWhenTryCatchExpressions.ChallengeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance.javacode.AnotherFileKt" />
+      <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.ChallengeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.ChallengeKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.TryCatchKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.WhenExpressionKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.LoopsKt" />
-        <item itemvalue="Kotlin.Inheritance.javacode.AnotherFileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561143981086</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Example Try Catch">
+      <created>1561468078701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561468078701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -252,9 +258,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46695557" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35427952" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901752" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,7 +303,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Loops" />
     <MESSAGE value="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" />
+    <MESSAGE value="Example Try Catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example Try Catch" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Functions/functions.kt">
@@ -368,10 +375,17 @@
     <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/TryCatch.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="e#40#107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>
