@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Lambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Location.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Locations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/textadventure/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt">
+        <entry file="file://$PROJECT_DIR$/src/Lambdas/Lambda.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -49,10 +54,11 @@
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/WhenExpression.kt" />
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/TryCatch.kt" />
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt" />
+        <option value="$PROJECT_DIR$/src/Lambdas/Lambda.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1919" />
     <option name="width" value="1682" />
     <option name="height" value="1051" />
@@ -86,7 +92,7 @@
               <item name="KotlinTim" type="b2602c69:ProjectViewProjectNode" />
               <item name="KotlinTim" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LoopsIfWhenTryCatchExpressions" type="462c0819:PsiDirectoryNode" />
+              <item name="Lambdas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,7 +119,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LoopsIfWhenTryCatchExpressions.ChallengeKt">
+  <component name="RunManager" selected="Kotlin.Lambdas.LambdaKt">
+    <configuration name="Lambdas.LambdaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas.LambdaKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoopsIfWhenTryCatchExpressions.ChallengeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -135,19 +154,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopsIfWhenTryCatchExpressions.LoopsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.LoopsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lambdas.LambdaKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.ChallengeKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.TryCatchKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.WhenExpressionKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
-        <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.LoopsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -246,8 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="0" width="1682" height="1051" extended-state="7" />
-    <editor active="true" />
+    <frame x="1919" y="0" width="1682" height="1051" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18482251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -258,14 +263,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22968581" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22968581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.35427952" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,8 +395,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="404">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lambdas/Lambda.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
