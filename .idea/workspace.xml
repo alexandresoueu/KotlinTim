@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Collections.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambdas/Lambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambdas/Lambda.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lambdas/Lambda.kt">
+        <entry file="file://$PROJECT_DIR$/src/Lambdas/Collections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -51,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/TryCatch.kt" />
         <option value="$PROJECT_DIR$/src/LoopsIfWhenTryCatchExpressions/challenge.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/Lambda.kt" />
+        <option value="$PROJECT_DIR$/src/Lambdas/Collections.kt" />
       </list>
     </option>
   </component>
@@ -66,28 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Functions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +107,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="KotlinTim" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="KotlinTim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Functions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -150,7 +151,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Lambdas.LambdaKt">
+  <component name="RunManager" selected="Kotlin.Lambdas.CollectionsKt">
+    <configuration name="Lambdas.CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas.CollectionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lambdas.LambdaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -172,19 +186,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.ChallengeKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopsIfWhenTryCatchExpressions.IfExpressionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lambdas.CollectionsKt" />
         <item itemvalue="Kotlin.Lambdas.LambdaKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.ChallengeKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.TryCatchKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.WhenExpressionKt" />
-        <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.IfExpressionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -279,14 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561472103247</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created Receivers with lambdas">
+      <created>1562203270725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562203270725</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1400" y="-4" width="1887" height="1205" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15823817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15986949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,9 +308,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32697546" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3260672" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32788375" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32788375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,7 +355,8 @@
     <MESSAGE value="Merge branch 'default' of https://github.com/alexandresoueu/KotlinTim into default&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" />
     <MESSAGE value="Example Try Catch" />
     <MESSAGE value="Challenge Loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Challenge Loops" />
+    <MESSAGE value="Created Receivers with lambdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Receivers with lambdas" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Functions/functions.kt">
@@ -441,8 +450,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lambdas/Lambda.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="229">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lambdas/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
