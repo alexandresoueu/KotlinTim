@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Lists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Maps.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lambdas/Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambdas/Lists.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lambdas/Lists.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lambdas/Maps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -63,11 +72,12 @@
         <option value="$PROJECT_DIR$/src/Lambdas/Lambda.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/Collections.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/Lists.kt" />
+        <option value="$PROJECT_DIR$/src/Lambdas/Maps.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2376" />
+    <option name="x" value="1640" />
     <option name="y" value="-4" />
     <option name="width" value="1370" />
     <option name="height" value="802" />
@@ -162,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Lambdas.ListsKt">
+  <component name="RunManager" selected="Kotlin.Lambdas.MapsKt">
     <configuration name="Lambdas.CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -202,6 +212,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lambdas.MapsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas.MapsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoopsIfWhenTryCatchExpressions.ChallengeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -215,26 +238,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsIfWhenTryCatchExpressions.TryCatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LoopsIfWhenTryCatchExpressions.TryCatchKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lambdas.MapsKt" />
         <item itemvalue="Kotlin.Lambdas.ListsKt" />
         <item itemvalue="Kotlin.Lambdas.CollectionsKt" />
         <item itemvalue="Kotlin.Lambdas.LambdaKt" />
         <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.ChallengeKt" />
-        <item itemvalue="Kotlin.LoopsIfWhenTryCatchExpressions.TryCatchKt" />
       </list>
     </recent_temporary>
   </component>
@@ -305,12 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562286296819</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create examples of collection functions and merged/mutable">
+      <created>1562465182618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562465182618</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1400" y="-4" width="1887" height="1205" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15986949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -321,14 +337,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22888283" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22888283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3260672" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32788375" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32788375" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32788375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,7 +391,8 @@
     <MESSAGE value="Challenge Loops" />
     <MESSAGE value="Created Receivers with lambdas" />
     <MESSAGE value="Created Lists types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Lists types" />
+    <MESSAGE value="Create examples of collection functions and merged/mutable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create examples of collection functions and merged/mutable" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Functions/functions.kt">
@@ -483,8 +500,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lambdas/Lists.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lambdas/Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="4" />
         </state>
       </provider>
     </entry>

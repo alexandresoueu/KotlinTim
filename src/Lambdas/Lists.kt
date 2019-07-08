@@ -6,8 +6,6 @@ fun main() {
 
     println("=============STRINGS===============")
     println(strings.last())
-    println(strings.asReversed())
-
     println(strings.getOrNull(5))
 
     /*if (strings.size > 5) {
