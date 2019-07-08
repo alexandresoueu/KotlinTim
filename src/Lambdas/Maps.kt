@@ -3,6 +3,21 @@ package Lambdas
 import java.time.Year
 
 fun main() {
+
+    val setInts = setOf(1, 3, 5, 8, 11, 15, -9)
+    println(setInts.plus(27))
+    println(setInts.plus(1))
+    println(setInts.minus(8))
+    println(setInts.minus(7))
+    println(setInts.average())
+    println(setInts.drop(5))
+    println("====================================================")
+
+    val mutableInts = mutableSetOf(1, 2, 3, 4, 5)
+    mutableInts.plus(10)
+    println(mutableInts)
+
+    println("****************************************************")
     val immutableMap = mapOf<Int, Car>(1 to Car("Blue",  "Golf", 2011),
         2 to Car("Green", "Omega", 1988),
         3 to Car("Red", "Mustang", 2015)
