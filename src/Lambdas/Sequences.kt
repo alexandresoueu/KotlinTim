@@ -15,9 +15,9 @@ fun main() {
     println("=============================")
 
     listOf("Nemo", "Dori", "Shark", "Pumba").asSequence()
-        //.filter { println("filtering $it"); it[0] == "N" }
+        .filter { println("filtering $it"); it[0] == 'S' }
         .map { println("mapping $it"); it.toUpperCase() }
-        .find { it.endsWith("o") }
+        .find { it.endsWith('i') }
 }
 
 data class Vrum(val color: String, val model: String, val year: Int) {
