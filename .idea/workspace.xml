@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/UpperBound.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lambdas/Generics.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lambdas/Sequences.kt">
+        <entry file="file://$PROJECT_DIR$/src/Lambdas/UpperBound.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="62">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -67,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/Lambdas/CollectionsStuff.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/Sequences.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/Generics.kt" />
+        <option value="$PROJECT_DIR$/src/Lambdas/UpperBound.kt" />
       </list>
     </option>
   </component>
@@ -122,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -144,7 +136,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,6 +145,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Lambdas.GenericsKt">
+  <component name="RunManager" selected="Kotlin.Lambdas.UpperBoundKt">
     <configuration name="Lambdas.CollectionsStuffKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -188,19 +181,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Lambdas.GenericsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambdas.ListsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambdas.ListsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,13 +212,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lambdas.UpperBoundKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas.UpperBoundKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lambdas.UpperBoundKt" />
         <item itemvalue="Kotlin.Lambdas.GenericsKt" />
         <item itemvalue="Kotlin.Lambdas.SequencesKt" />
         <item itemvalue="Kotlin.Lambdas.CollectionsStuffKt" />
         <item itemvalue="Kotlin.Lambdas.MapsKt" />
-        <item itemvalue="Kotlin.Lambdas.ListsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -351,19 +344,27 @@
       <option name="project" value="LOCAL" />
       <updated>1562885782908</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Example Generics in Kotlin">
+      <created>1562894508370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562894508370</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="-4" width="1333" height="773" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22879377" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23268482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22720478" />
@@ -371,7 +372,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.264574" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25560537" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3258595" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32735425" />
@@ -426,7 +427,8 @@
     <MESSAGE value="Create examples od more collections functions" />
     <MESSAGE value="Don't working sequences. In Analysis...." />
     <MESSAGE value="Now working sequences." />
-    <option name="LAST_COMMIT_MESSAGE" value="Now working sequences." />
+    <MESSAGE value="Example Generics in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example Generics in Kotlin" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -580,6 +582,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lambdas/UpperBound.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
