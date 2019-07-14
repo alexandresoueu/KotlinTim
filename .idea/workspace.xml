@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdb11f8-ed16-457b-9e00-6431b00ca2fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Covariance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Contravariance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTim/META-INF/KotlinTim.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lambdas/Covariance.kt">
+        <entry file="file://$PROJECT_DIR$/src/Lambdas/Contravariance.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="53">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -60,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/Lambdas/UpperBound.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/RefiedParameters.kt" />
         <option value="$PROJECT_DIR$/src/Lambdas/Covariance.kt" />
+        <option value="$PROJECT_DIR$/src/Lambdas/Contravariance.kt" />
       </list>
     </option>
   </component>
@@ -161,7 +163,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Lambdas.CovarianceKt">
+  <component name="RunManager" selected="Kotlin.Lambdas.ContravarianceKt">
+    <configuration name="Lambdas.ContravarianceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas.ContravarianceKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lambdas.CovarianceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -201,19 +216,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambdas.SequencesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTim" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambdas.SequencesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lambdas.UpperBoundKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTim" />
       <option name="VM_PARAMETERS" />
@@ -229,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lambdas.ContravarianceKt" />
         <item itemvalue="Kotlin.Lambdas.CovarianceKt" />
         <item itemvalue="Kotlin.Lambdas.RefiedParametersKt" />
         <item itemvalue="Kotlin.Lambdas.UpperBoundKt" />
         <item itemvalue="Kotlin.Lambdas.GenericsKt" />
-        <item itemvalue="Kotlin.Lambdas.SequencesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563057092210</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Example of Covariance">
+      <created>1563063059673</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563063059673</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -384,7 +393,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22720478" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22720478" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,7 +401,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.25560537" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3258595" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32735425" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32735425" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -447,7 +456,8 @@
     <MESSAGE value="Example Generics in Kotlin" />
     <MESSAGE value="Example of UpperBound in Kotlin" />
     <MESSAGE value="Example of Refied Parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example of Refied Parameters" />
+    <MESSAGE value="Example of Covariance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of Covariance" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -620,8 +630,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lambdas/Covariance.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lambdas/Contravariance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
