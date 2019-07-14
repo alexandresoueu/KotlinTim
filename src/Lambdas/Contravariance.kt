@@ -25,12 +25,12 @@ fun main() {
         fun pick(): Flowers = Flowers("some random flower.")
     }
     val roseGardens2 = Gardens<Roses>(listOf(Roses()), flowersTender2)
-    val rose: Roses = roseGardens2.pickFlower(0)
+   // val rose: Roses = roseGardens2.pickFlower(0)
 
 }
 
 class Gardens<T: Flowers>(val flowers: List<T>, val flowerCare: FlowerCare<T>) {
-    fun pickFlower(i: Int) = flowerCare.pick(i)
+    //fun pickFlower(i: Int) = flowerCare.pick(i)
     fun tendFlower(i: Int) {
         flowerCare.prune(flowers[i])
     }
